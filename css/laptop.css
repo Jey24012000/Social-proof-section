@@ -1,0 +1,51 @@
+.main-container{
+    height: 100vh;
+}
+.main-container--section{
+    display: flex;
+    width: auto;
+    min-width: none;
+    max-width: none;
+    height: 40vh;
+    margin-left: 50px;
+}
+.stars-section{
+    margin-right: 50px;
+}
+.stars-section .stars-section--div{
+    width: 80%;
+    padding: 12px; 
+    display: flex;
+}
+.stars-section .dos{
+    align-self: center;
+}
+.stars-section .tres{
+    align-self: flex-end;
+}
+.stars-section .stars-section--div  span{
+    margin: 0 20px;
+}
+.opinions-section{
+    margin: 0px 10px;
+    width: auto;
+    display: flex;
+    height: 40vh;
+    min-width: none;
+    max-width: none;
+    justify-content: space-around;
+}
+.opinions-section .opinions-section--card{
+    max-width: 340px;
+    min-width: 300px;
+    height:35vh;
+
+}
+.opinions-section .enmedio{
+    margin-top: 20px;
+}
+.opinions-section .abajo{
+    margin-top: 40px;
+}
+
+/* Me falta hacer la parte de desacomodar las tarjetas. */
